@@ -8,7 +8,7 @@ public class SpellChecker {
         if (Arrays.asList(wordBank).contains(words)) {
             return words;
         } else {
-            return "~Helpo~";
+            return "~" + words + "~";
         }
     }
 }
